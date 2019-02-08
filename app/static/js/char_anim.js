@@ -4,11 +4,11 @@ function stopAnimate() {
   clearInterval(tID);
 } //end of stopAnimate()
 
-//
-// window.onload = function animateScript(){
-//   idleAnimation();
-// };
-//
+
+window.onload = function animateScript(){
+  idleAnimation();
+};
+
  function idleAnimation() {
   clearInterval(tID);
   var position = 3 * 256; //start position for the image slicer
